@@ -4,8 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer proyecto web</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>¿Qué es esto?</li>
+                <li>Sobre mi</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+        <section></section>
+    </header>
+    <main>
+        <section>
+            <h1>Mi primer proyecto</h1>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam alias possimus qui repudiandae similique tempora blanditiis laboriosam, maiores, voluptatem quod ratione ullam delectus fugiat explicabo repellat at? Officia, beatae aperiam.</p>
+            </div>
+            <div><img src="img/code_development_.svg" alt="desarrollo-web"></div>
+            <div>
+                <h2>Este sitio fue creado con</h2>
+                <div>
+                    <div><img src="img/" alt="html-icono"></div>
+                    <div>HTML</div>
+                </div>
+                <div>
+                    <div><img src="img/" alt="css-icono"></div>
+                    <div>CSS</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Sobre mí</h2>
+            <div><img src="img/foto.jpg" alt="fotografía"></div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, perferendis consequuntur nam adipisci, sint placeat a illo quisquam cum excepturi consequatur dolores ratione asperiores quam modi quis omnis? Facilis, saepe.</p>
+                <a href="#">Lo que me gusta</a>
+            </div>
+        </section>
+        <section>
+            <form>
+                <h2>Contactame</h2>
+                <label for="input-email">Correo electronico</label>
+                <input type="email" id="input-email">
+                <label for="input-asunto">Asunto</label>
+                <input type="text" id="input-asunto">
+                <label for="input-msg">Mensaje</label>
+                <textarea id="input-msg" cols="30" rows="10"></textarea>
+                <input type="button" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">¿Qué es esto?</a></li>
+                    <li><a href="#">Contactame</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">Sobre mi</a>
+                        <ul>
+                            <li><a href="#">Peliculas</a></li>
+                            <li><a href="#">Series</a></li>
+                            <li><a href="#">Videojuegos</a></li>
+                            <li><a href="#">Libros</a></li>
+                            <li><a href="#">Futbol</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">Buscame</a>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Gmail</a></li>
+                            <li><a href="#">999-999-999</a></li>
+                            <li><a href="#">GitHub</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <p>Junio 2020</p>
+        </section>
+    </footer>
 </body>
 </html>
