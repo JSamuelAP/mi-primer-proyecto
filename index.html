@@ -8,102 +8,102 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>Inicio</li>
-                <li>¿Qué es esto?</li>
-                <li>Sobre mi</li>
-                <li>Contacto</li>
+    <header class="header">
+        <nav class="main-menu">
+            <ul class="main-menu__list">
+                <li class="main-menu__item"><a href="#" class="main-menu__link">Inicio</a></li>
+                <li class="main-menu__item"><a href="#" class="main-menu__link">¿Qué es esto?</a></li>
+                <li class="main-menu__item"><a href="#" class="main-menu__link">Sobre mi</a></li>
+                <li class="main-menu__item"><a href="#" class="main-menu__link">Contacto</a></li>
             </ul>
-            <form>
-                <input type="search" placeholder="Decoración">
+            <form class="main-menu__search">
+                <input type="search" placeholder="Decoración" class="search__input">
             </form>
         </nav>
-        <section></section>
+        <section class="banner"></section>
     </header>
-    <main>
-        <section>
-            <h1>Mi primer proyecto</h1>
-            <div>
+    <main class="main">
+        <section class="main-info">
+            <h1 class="main-info__title">Mi primer proyecto</h1>
+            <div class="main-info__text">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam alias possimus qui repudiandae similique tempora blanditiis laboriosam, maiores, voluptatem quod ratione ullam delectus fugiat explicabo repellat at? Officia, beatae aperiam.</p>
             </div>
-            <div><img src="img/code_development_.svg" alt="desarrollo-web"></div>
-            <div>
-                <h2>Este sitio fue creado con</h2>
-                <div>
-                    <div><img src="img/html-5.svg" alt="html-icono"></div>
-                    <div>HTML</div>
+            <div class="main-info__img"><img src="img/code_development_.svg" alt="desarrollo-web"></div>
+            <div class="main-info__languages">
+                <h2 class="languages__title">Este sitio fue creado con</h2>
+                <div class="languages__language">
+                    <div class="language__img"><img src="img/html-5.svg" alt="html-icono"></div>
+                    <div class="language__name">HTML</div>
                 </div>
-                <div>
-                    <div><img src="img/css-3.svg" alt="css-icono"></div>
-                    <div>CSS</div>
+                <div class="languages__language">
+                    <div class="language__img"><img src="img/css-3.svg" alt="css-icono"></div>
+                    <div class="language__name">CSS</div>
                 </div>
             </div>
         </section>
-        <section>
-            <h2>Sobre mí</h2>
-            <div><img src="img/foto.jpg" alt="fotografía"></div>
-            <div>
+        <section class="about-me">
+            <h2 class="about-me__title">Sobre mí</h2>
+            <div class="about-me__photo"><img src="img/foto.jpg" alt="fotografía"></div>
+            <div class="about-me__text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, perferendis consequuntur nam adipisci, sint placeat a illo quisquam cum excepturi consequatur dolores ratione asperiores quam modi quis omnis? Facilis, saepe.</p>
-                <a href="#">Lo que me gusta</a>
+                <a class="about-me__button button"href="#">Lo que me gusta</a>
             </div>
         </section>
-        <section>
-            <form>
-                <h2>Contactame</h2>
-                <label for="input-email">Correo electronico</label>
-                <input type="email" id="input-email">
-                <label for="input-asunto">Asunto</label>
-                <input type="text" id="input-asunto">
-                <label for="input-msg">Mensaje</label>
-                <textarea id="input-msg" cols="30" rows="10"></textarea>
-                <input type="button" value="Enviar">
+        <section class="contact">
+            <form class="contact__form">
+                <h2 class="form__title">Contactame</h2>
+                <label class="form__label" for="input-email">Correo electronico</label>
+                <input class="form__input"type="email" id="input-email">
+                <label class="form__label" for="input-asunto">Asunto</label>
+                <input class="form__input" type="text" id="input-asunto">
+                <label class="form__label" for="input-msg">Mensaje</label>
+                <textarea class="form__input" id="input-msg" cols="30" rows="10"></textarea>
+                <input class="form__button button" type="button" value="Enviar">
             </form>
         </section>
     </main>
-    <footer>
-        <section>
-            <nav>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">¿Qué es esto?</a></li>
-                    <li><a href="#">Contactame</a></li>
+    <footer class="footer">
+        <section class="footer-menu">
+            <nav class="footer-menu__nav">
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item"><a class="footer-menu__link" href="#">Inicio</a></li>
+                    <li class="footer-menu__item"><a class="footer-menu__link" href="#">¿Qué es esto?</a></li>
+                    <li class="footer-menu__item"><a class="footer-menu__link" href="#">Contactame</a></li>
                 </ul>
             </nav>
         </section>
-        <section>
-            <nav>
-                <ul>
-                    <li><a href="#">Sobre mi</a>
-                        <ul>
-                            <li><a href="#">Peliculas</a></li>
-                            <li><a href="#">Series</a></li>
-                            <li><a href="#">Videojuegos</a></li>
-                            <li><a href="#">Libros</a></li>
-                            <li><a href="#">Futbol</a></li>
+        <section class="footer-menu-me">
+            <nav class="footer-menu-me__nav">
+                <ul class="footer-menu-me__list">
+                    <li class="footer-menu-me__item"><a class="footer-menu-me__link" href="#">Sobre mi</a>
+                        <ul class="footer-menu-me__list">
+                            <li class="footer-menu-me__item"><a class="footer-menu-me__link" href="#">Peliculas</a></li>
+                            <li class="footer-menu-me__item"><a class="footer-menu-me__link" href="#">Series</a></li>
+                            <li class="footer-menu-me__item"><a class="footer-menu-me__link" href="#">Videojuegos</a></li>
+                            <li class="footer-menu-me__item"><a class="footer-menu-me__link" href="#">Libros</a></li>
+                            <li class="footer-menu-me__item"><a class="footer-menu-me__link" href="#">Futbol</a></li>
                         </ul>
                     </li>
                 </ul>
             </nav>
         </section>
-        <section>
-            <nav>
-                <ul>
-                    <li><a href="#">Buscame</a>
-                        <ul>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Gmail</a></li>
-                            <li><a href="#">999-999-999</a></li>
-                            <li><a href="#">GitHub</a></li>
+        <section class="footer-contact">
+            <nav class="footer-contact__nav">
+                <ul class="footer-contact__list">
+                    <li class="footer-contact__item"><a class="footer-contact__link" href="#">Buscame</a>
+                        <ul class="footer-contact__list">
+                            <li class="footer-contact__item"><a class="footer-contact__link" href="#">Facebook</a></li>
+                            <li class="footer-contact__item"><a class="footer-contact__link" href="#">Gmail</a></li>
+                            <li class="footer-contact__item"><a class="footer-contact__link" href="#">999-999-999</a></li>
+                            <li class="footer-contact__item"><a class="footer-contact__link" href="#">GitHub</a></li>
                         </ul>
                     </li>
                 </ul>
             </nav>
         </section>
-        <section>
-            <p>Junio 2020</p>
-        </section>
+        <date class="footer-date">
+            <p class="footer-date__text">Junio 2020</p>
+        </date>
     </footer>
 </body>
 </html>
