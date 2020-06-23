@@ -1,0 +1,10 @@
+:root{
+    /* colores */
+    --principal: #3CC47C;
+    --secundario: #FC4A1A;
+    --tin: #828081;
+    /* fuentes */
+    --display: 'Bebas Neue', cursive;
+    --encabezados: 'Lato', sans-serif;
+    --cuerpo: 'Montserrat', sans-serif;
+}
