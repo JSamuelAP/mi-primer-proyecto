@@ -1,10 +1,72 @@
 :root{
     /* colores */
-    --principal: #3CC47C;
-    --secundario: #FC4A1A;
+    --principal: #3bc47b;
+    --secundario: #fc4a1a;
     --tin: #828081;
     /* fuentes */
     --display: 'Bebas Neue', cursive;
     --encabezados: 'Lato', sans-serif;
     --cuerpo: 'Montserrat', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* -- header -- */
+/* banner*/
+.header{
+    height: 100vh;
+    color: #FFF;
+    background-image: url(../img/main-banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    position: relative;
+}
+.header::before{
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(59, 196, 123, 0.6);
+}
+.header-container{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.banner-text{
+    position: absolute;
+    bottom: 250px;
+}
+/* menu de navegacion */
+.main-menu{
+    background-color: rgba(252, 74, 26, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.main-menu-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.main-menu__list{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.main-menu__item{
+    display: inline-block;
+}
+.main-menu__link{
+    color: #FFF;
+}
+.main-menu__search{
+    float: right;
 }
