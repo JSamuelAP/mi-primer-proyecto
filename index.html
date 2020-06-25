@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2940e283c9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
@@ -16,12 +17,20 @@
                     <ul class="main-menu__list">
                         <li class="main-menu__item"><a href="#" class="main-menu__link">Inicio</a></li>
                         <li class="main-menu__item"><a href="#" class="main-menu__link">¿Qué es esto?</a></li>
-                        <li class="main-menu__item"><a href="#" class="main-menu__link">Sobre mi</a></li>
+                        <li class="main-menu__item"><a href="#" class="main-menu__link">Sobre mi</a>
+                            <ul class="main-menu__sub-list">
+                                <li class="main-menu__sub-item"><a href="#" class="main-menu__link">Peliculas</a></li>
+                                <li class="main-menu__sub-item"><a href="#" class="main-menu__link">Series</a></li>
+                                <li class="main-menu__sub-item"><a href="#" class="main-menu__link">Videojuegos</a></li>
+                                <li class="main-menu__sub-item"><a href="#" class="main-menu__link">Libros</a></li>
+                                <li class="main-menu__sub-item"><a href="#" class="main-menu__link">Futbol</a></li>
+                            </ul>
+                        </li>
                         <li class="main-menu__item"><a href="#" class="main-menu__link">Contacto</a></li>
                     </ul>
                     <form class="main-menu__search">
                         <input type="search" placeholder="Decoración" class="search__input">
-                        <input type="submit" value="O" class="search__buton" id="nav-search">
+                        <button class="search__button"><i class="fas fa-search"></i></button>
                     </form>
                 </div>
             </nav>
