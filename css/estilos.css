@@ -20,6 +20,7 @@ body{
 }
 h1, h2, h3{
     font-family: var(--encabezados);
+    margin: 0;
 }
 ul{
     list-style: none;
@@ -61,11 +62,9 @@ a{
     font-family: var(--display);
     font-size: 5em;
     letter-spacing: 0.05em;
-    margin: 0;
 }
 .banner__author{
     font-size: 2em;
-    margin: 0;
 }
 .author__name{
     text-decoration: underline var(--secundario) solid;
@@ -148,4 +147,72 @@ a{
 .search__button:hover{
     background-color: var(--principal);
     cursor: pointer;
+}
+/* -- cuerpo principal -- */
+.main{
+    /* background-color: whitesmoke; */
+    width: 70%;
+    margin: 0 auto;
+    padding: 3em 0;
+    font-size: 1.25em;
+    color: var(--tin);
+}
+/* info principal */
+.main-info__container{
+    overflow: hidden;
+}
+.main-info__text{
+    float: left;
+    width: 55%;
+    line-height: 1.5em;
+}
+.main-info__title{
+    font-size: 2rem;
+    color: #000;
+}
+.main-info__img{
+    float: right;
+    width: 44%;
+}
+.main-info__img-svg{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+/* lenguajes utilizados */
+.main-info__languages{
+    overflow: hidden;
+}
+.languages__title{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+    margin: 30px 0;
+}
+.languages__language{
+    width: 50%;
+    float: left;
+}
+.language__card{
+    background-color: #f1f1f1;
+    width: 50%;
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.language__img{
+    width: 100%;
+}
+.language__img-svg{
+    display: block;
+    width: 100%;
+}
+.language__name{
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-top: 1px solid var(--tin);
 }
