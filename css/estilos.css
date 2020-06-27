@@ -28,6 +28,9 @@ ul{
 a{
     text-decoration: none;
 }
+p{
+    margin: 0;
+}
 /* -- header -- */
 /* banner*/
 .header{
@@ -158,6 +161,9 @@ a{
     color: var(--tin);
 }
 /* info principal */
+.main-info{
+    margin-bottom: 5em;
+}
 .main-info__container{
     overflow: hidden;
 }
@@ -169,6 +175,7 @@ a{
 .main-info__title{
     font-size: 2rem;
     color: #000;
+    margin-bottom: 0.75em;
 }
 .main-info__img{
     float: right;
@@ -215,4 +222,60 @@ a{
     padding-top: 10px;
     margin-top: 20px;
     border-top: 1px solid var(--tin);
+}
+/* sobre mi */
+.about-me{
+    overflow: hidden;
+    margin-bottom: 5em;
+}
+.about-me__title{
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 1em;
+}
+.about-me__photo{
+    width: 7.5%;
+    float: left;
+    position: relative;
+}
+.about-me__photo-jpg{
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    box-shadow: 0 0 0 5px var(--principal);
+    position: absolute;
+    left: 5px;
+    top: 25px;
+}
+.about-me__photo-jpg:hover{
+    box-shadow: 0 0 0 5px var(--secundario);
+}
+.about-me__text{
+    line-height: 1.5em;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    float: right;
+    width: 92.5%;
+    margin: 0;
+}
+.about-me__text-p{
+    padding: 20px 20px 20px 100px;
+}
+.about-me__button{
+    background-color: var(--principal);
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 20px;
+    padding: 0;
+}
+.about-me__button:hover{
+    background-color: var(--secundario);
+}
+.about-me__button-link{
+    color: #FFF;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: block;
+    padding: 10px;
 }
