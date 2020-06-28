@@ -279,3 +279,55 @@ p{
     display: block;
     padding: 10px;
 }
+/* formulario de contacto */
+.contact{
+    font-size: 0.9em;
+}
+.contact__form{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px -10px black;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1.5em;
+    box-sizing: border-box;
+}
+.form__title{
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.form__input{
+    display: block;
+    width: 100%;
+    margin: 0.25em 0 0.5em;
+    padding: 5px;
+    border: 2px solid transparent;
+}
+.form__input-email:valid{
+    border-color: rgba(0, 255, 0, 0.25);
+}
+.form__input-email:invalid{
+    border-color: rgba(255, 0, 0, 0.25);
+}
+.form__input-txtarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+}
+.form__button{
+    display: block;
+    margin: 20px auto 0;
+    border: none;
+    background-color: var(--principal);
+    color: #FFF;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+.form__button:hover{
+    background-color: var(--secundario);
+    cursor: pointer;
+}
