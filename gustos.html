@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer proyecto web | Mis gustos</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2940e283c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="header__menu">
+                <div class="container main-menu__container clearfix">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item"><a href="#" class="main-menu__link">Inicio</a></li>
+                        <li class="main-menu__item"><a href="#" class="main-menu__link">¿Qué es esto?</a></li>
+                        <li class="main-menu__item"><a href="#" class="main-menu__link">Sobre mi</a>
+                            <ul class="main-menu__sub-list">
+                                <li class="main-menu__sub-item button button--bg-main"><a href="#" class="main-menu__link">Peliculas</a></li>
+                                <li class="main-menu__sub-item button button--bg-main"><a href="#" class="main-menu__link">Series</a></li>
+                                <li class="main-menu__sub-item button button--bg-main"><a href="#" class="main-menu__link">Videojuegos</a></li>
+                                <li class="main-menu__sub-item button button--bg-main"><a href="#" class="main-menu__link">Libros</a></li>
+                                <li class="main-menu__sub-item button button--bg-main"><a href="#" class="main-menu__link">Futbol</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-menu__item"><a href="#" class="main-menu__link">Contacto</a></li>
+                    </ul>
+                    <form class="main-menu__search-bar clearfix">
+                        <input type="search" placeholder="Decoración" class="search-bar__element search-bar__element--input">
+                        <button class="search-bar__element search-bar__element--button button button--bg-main"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+            <div class="menu-topics">
+                <h1 class="menu-topics__title">Echa un vistazo a lo que me encanta</h1>
+                <div class="menu-topics__container">
+                    <div class="topic__card"><a href="#" class="topic__link">Peliculas</a></div>
+                    <div class="topic__card"><a href="#" class="topic__link">Series</a></div>
+                    <div class="topic__card"><a href="#" class="topic__link">Videojuegos</a></div>
+                    <div class="topic__card"><a href="#" class="topic__link">Libros</a></div>
+                    <div class="topic__card"><a href="#" class="topic__link">Futbol</a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main__container">
+            <section class="topic__section">
+                <h2 class="topic__title">Peliculas</h2>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/movie-jp.jpg" alt="Poster Jurassic Park" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Parque Jurásico</h3>
+                        <p class="item__director">Steven Spielberg</p>
+                        <p class="item__year">1993</p>
+                    </div>
+                </div>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/movie-twotw.jpg" alt="Poster La guerra de los mundos" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">La guerra de los mundos</h3>
+                        <p class="item__director">Steven Spielberg</p>
+                        <p class="item__year">2005</p>
+                    </div>
+                </div>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/movie-int.jpg" alt="Poster Interestellar" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Interestellar</h3>
+                        <p class="item__director">Christopher Nolan</p>
+                        <p class="item__year">2014</p>
+                    </div>
+                </div>
+            </section>
+            <section class="topic__section">
+                <h2 class="topic__title">Series</h2>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/serie-bb.jpg" alt="Poster Breaking Bad" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Breaking Bad</h3>
+                        <p class="item__director">Vince Gilligan</p>
+                        <p class="item__year">2008</p>
+                    </div>
+                </div>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/serie-st.jpg" alt="Poster Stranger Things" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Stranger Things</h3>
+                        <p class="item__director">Matt & Ross Duffer</p>
+                        <p class="item__year">2016</p>
+                    </div>
+                </div>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/serie-bcs.jpg" alt="Poster Better Call Saul" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Better Call Saul</h3>
+                        <p class="item__director">Vince Gilligan</p>
+                        <p class="item__year">2015</p>
+                    </div>
+                </div>
+            </section>
+            <section class="topic__section">
+                <h2 class="topic__title">Videojuegos</h2>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/game-aoe2.jpg" alt="Portada Age of Empires II" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Ague of Empires II</h3>
+                        <p class="item__company">Esemble Studios</p>
+                        <p class="year">1999</p>
+                    </div>
+                </div>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/game-acr.png" alt="Portada Assassin's Credd Revelations" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Assassin's Creed Revelations</h3>
+                        <p class="item__company">Ubisoft</p>
+                        <p class="year">2011</p>
+                    </div>
+                </div>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/game-ab.png" alt="Portada Angry Brids" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Angry Birds</h3>
+                        <p class="item__company">Rovio Entertainment Corporation</p>
+                        <p class="year">2009</p>
+                    </div>
+                </div>
+            </section>
+            <section class="topic__section">
+                <h2 class="topic__title">Libros</h2>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/book-twotw.jpg" alt="Portada La guerra de los mundos" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">La guerra de los mundos</h3>
+                        <p class="item__author">Herbert George Wells</p>
+                        <p class="item__year">1898</p>
+                    </div>
+                </div>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/book-jp.jpg" alt="Portada Jurassic Park" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Parque Jurásico</h3>
+                        <p class="item__author">Michael Crichton</p>
+                        <p class="item__year">1990</p>
+                    </div>
+                </div>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/book-vct.gif" alt="Portada Viaje al centro de la tierra" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Viaje al centro de la tierra</h3>
+                        <p class="item__author">Julio Verne</p>
+                        <p class="item__year">1864</p>
+                    </div>
+                </div>
+            </section>
+            <section class="topic__section">
+                <h2 class="topic__title">Futbol</h2>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/soccer-leo.png" alt="Escudo Club León" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">León</h3>
+                        <p class="item__country">México</p>
+                    </div>
+                </div>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/soccer-mex.png" alt="Escudo Seleccion mexicana" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Selección mexicana</h3>
+                        <p class="item__country">México</p>
+                    </div>
+                </div>
+                <div class="topic__item">
+                    <div class="item__ill"><img src="img/soccer-rma.png" alt="Escudo Real Madrid" class="item__img"></div>
+                    <div class="item__info">
+                        <h3 class="item__name">Real Madrid</h3>
+                        <p class="item__country">España</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__menus clearfix">
+                <section class="footer__secction">
+                    <nav class="footer__menu">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">Inicio</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">¿Qué es esto?</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Sobre mi</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Escribeme</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="footer__secction">
+                    <nav class="footer__menu">
+                        <ul class="footer__list">
+                            <li class="footer__item footer__item--title"><a href="#" class="footer__link">Mis gustos</a>
+                                <ul class="footer__list--sub">
+                                    <li class="footer__item"><a href="#" class="footer__link">Peliculas</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Series</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Videojuegos</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Futbol</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Libros</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="footer__secction">
+                    <nav class="footer__menu">
+                        <p class="footer__item footer__item--title">Contactame</p>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link"><i class="footer__icon fab fa-facebook-square"></i>Facebook</a></li>
+                            <li class="footer__item"><i class="footer__icon fas fa-phone-alt"></i></i>999-999-999</li>
+                            <li class="footer__item"><a href="#" class="footer__link"><i class="footer__icon far fa-envelope"></i>Gmail</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link"><i class="footer__icon fab fa-github"></i>GitHub</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+            <date class="footer__date">
+                <p class="date__text">Junio 2020</p>
+            </date>
+        </div>
+    </footer>
+</body>
+</html>
