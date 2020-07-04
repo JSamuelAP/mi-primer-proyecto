@@ -23,6 +23,9 @@
     --br-small: 5px;
     --br-normal: 10px;
     --br-circle: 50%;
+    /* box-shadow */
+    --sombra: 10px 10px 20px -10px #000;
+    --sombra-light: 10px 10px 20px -12px #000;
     /* tiempo de transicion */
     --tiempo: 0.25s;
 }
@@ -310,7 +313,7 @@ a {
     padding: 1.5em;
     background-color: var(--light-gray);
     border-radius: var(--br-normal);
-    box-shadow: 10px 10px 20px -10px black;
+    box-shadow: var(--sombra);
     width: 40%;
     box-sizing: border-box;
 }

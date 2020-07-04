@@ -1,0 +1,73 @@
+@import 'estilos.css';
+
+/* -- header -- */
+.header{
+    height: auto;
+    padding-top: 9em;
+    padding-bottom: 2em;
+    background-image: none;
+    background-size: unset;
+    background-position: unset;
+    background-attachment: unset;
+    background-color: var(--light-gray);
+    position: initial;
+}
+.header::before{
+    display: none;
+}
+.menu-topics{
+    background-color: #fff;
+    text-align: center;
+    padding: 2em 0;
+    box-shadow: var(--sombra);
+}
+.menu-topics__container{
+    display: inline-block;
+}
+.menu-topics__title{
+    color: var(--dark-gray);
+    margin-bottom: 1em;
+}
+.topic__card{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-right: 1em;
+    background-size: cover;
+    background-position: center;
+    box-shadow: var(--sombra);
+    transition: box-shadow var(--tiempo);
+}
+.topic__card:hover{
+    box-shadow: var(--sombra-light);
+}
+.topic__card:last-child{
+    margin-right: 0;
+}
+.topic__card:nth-child(1){
+    background-image: url(../img/bg-movies.jpg);
+}
+.topic__card:nth-child(2){
+    background-image: url(../img/bg-series.jpg);
+}
+.topic__card:nth-child(3){
+    background-image: url(../img/bg-videogames.jpg);
+}
+.topic__card:nth-child(4){
+    background-image: url(../img/bg-books.jpg);
+}
+.topic__card:nth-child(5){
+    background-image: url(../img/bg-soccer.jpg);
+}
+.topic__link{
+    display: block;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    line-height: 200px;
+    font-size: 1.25em;
+    font-weight: var(--semibold);
+    transition: background-color var(--tiempo);
+}
+.topic__link:hover{
+    background-color: rgba(0,0,0,0.75);
+}
