@@ -71,3 +71,70 @@
 .topic__link:hover{
     background-color: rgba(0,0,0,0.75);
 }
+/* contenido principal */
+.main{
+    color: #000;
+}
+.topic__section{
+    margin-bottom: 3em;
+}
+.topic__title{
+    margin-bottom: 1em;
+}
+.topic__item{
+    margin-bottom: 1em;
+}
+.item__ill{
+    float: left;
+    width: 20%;
+}
+.item__img{
+    width: 100%;
+}
+.item__info{
+    float: left;
+    width: 80%;
+    padding-left: 1em;
+    box-sizing: border-box;
+}
+.item__name{
+    margin-bottom: 0.5em;
+}
+.item__data{
+    color: var(--tin);
+    font-size: 0.8em;
+    margin-top: 0.25em;
+}
+.item__data::before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 0.25em;
+}
+.item__data--year::before{
+    content: '\f073';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+}
+.item__data--director::before{
+    content: '\f0a1';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+}
+.item__data--author::before{
+    content: '\f5ad';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+}
+.item__data--company::before{
+    content: '\f1ad';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+}
+.item__data--country::before{
+    content: '\f57d';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+}
