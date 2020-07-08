@@ -52,6 +52,10 @@ body {
 .clearfix {
     overflow: auto;
 }
+/* solucionar el problema del menu que cubre las secciones a los que se accede con links */
+:target{
+    padding-top: 50px;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--encabezados);
     margin: 0;

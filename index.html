@@ -16,37 +16,37 @@
                 <div class="container main-menu__container clearfix">
                     <ul class="main-menu__list">
                         <li class="main-menu__item"><a href="#" class="main-menu__link">Inicio</a></li>
-                        <li class="main-menu__item"><a href="#" class="main-menu__link">¿Qué es esto?</a></li>
-                        <li class="main-menu__item"><a href="#" class="main-menu__link">Sobre mi</a>
+                        <li class="main-menu__item"><a href="#main-info" class="main-menu__link">¿Qué es esto?</a></li>
+                        <li class="main-menu__item"><a href="#about-me" class="main-menu__link">Sobre mi</a>
                             <ul class="main-menu__sub-list">
-                                <li class="main-menu__sub-item button button--bg-main"><a href="#" class="main-menu__link">Peliculas</a></li>
-                                <li class="main-menu__sub-item button button--bg-main"><a href="#" class="main-menu__link">Series</a></li>
-                                <li class="main-menu__sub-item button button--bg-main"><a href="#" class="main-menu__link">Videojuegos</a></li>
-                                <li class="main-menu__sub-item button button--bg-main"><a href="#" class="main-menu__link">Libros</a></li>
-                                <li class="main-menu__sub-item button button--bg-main"><a href="#" class="main-menu__link">Futbol</a></li>
+                                <li class="main-menu__sub-item button button--bg-main"><a href="gustos.html#movies" class="main-menu__link">Peliculas</a></li>
+                                <li class="main-menu__sub-item button button--bg-main"><a href="gustos.html#series" class="main-menu__link">Series</a></li>
+                                <li class="main-menu__sub-item button button--bg-main"><a href="gustos.html#videogames" class="main-menu__link">Videojuegos</a></li>
+                                <li class="main-menu__sub-item button button--bg-main"><a href="gustos.html#books" class="main-menu__link">Libros</a></li>
+                                <li class="main-menu__sub-item button button--bg-main"><a href="gustos.html#soccer" class="main-menu__link">Futbol</a></li>
                             </ul>
                         </li>
-                        <li class="main-menu__item"><a href="#" class="main-menu__link">Contacto</a></li>
+                        <li class="main-menu__item"><a href="#contact" class="main-menu__link">Contacto</a></li>
                     </ul>
                     <form class="main-menu__search-bar clearfix">
-                        <input type="search" placeholder="Decoración" class="search-bar__element search-bar__element--input">
+                        <input type="search" placeholder="Buscar" class="search-bar__element search-bar__element--input">
                         <button class="search-bar__element search-bar__element--button button button--bg-main"><i class="fas fa-search"></i></button>
                     </form>
                 </div>
             </nav>
             <section class="banner-text">
-                <h1 class="banner__display">Mi primera página web</h1>
+                <h1 class="banner__display">Mi primera página Web</h1>
                 <h3 class="banner__author">Por <span class="author__name">José Samuel</span></h3>
             </section>
         </div>
     </header>
     <main class="main">
         <div class="container main__container">
-            <section class="main-info">
+            <section class="main-info" id="main-info">
                 <div class="main-info__article clearfix">
                     <div class="main-info__text">
                         <h2 class="main-info__title">Mi primer proyecto</h2>
-                        <p class="main-info__body">Esta página web es mi primer proyecto personal para aplicar los conocimientos adquiridos en HTML y CSS básico, hasta el momento lo más avanzado aquí es animaciones CSS, en futuros proyectos implementare lo aprendido de nuevas formas de trabajar en el mundo de la web, como flex box, CSS grid, diseño adaptable, frameworks como bootstrap, y lenguajes de programación como JavaScript. Significa que por el momento me estoy centrando en la estructura y la presentación.</p>
+                        <p class="main-info__body">Esta página Web es mi primer proyecto personal para aplicar los conocimientos adquiridos en HTML y CSS básico, hasta el momento lo más avanzado aquí es animaciones CSS, en futuros proyectos implementare lo aprendido de nuevas formas de trabajar en el mundo de la Web, como Flex box, CSS grid, diseño adaptable, Framework como bootstrap, y lenguajes de programación como Java script. Significa que por el momento me estoy centrando en la estructura y la presentación.</p>
                     </div>
                     <div class="main-info__ill"><img src="img/code_development_.svg" alt="desarrollo-web" class="main-info__img"></div>
                 </div>
@@ -66,17 +66,17 @@
                     </div>
                 </div>
             </section>
-            <section class="about-me clearfix">
+            <section class="about-me clearfix" id="about-me">
                 <h2 class="about-me__title">Sobre mí</h2>
                 <div class="about-me__ill"><img src="img/foto.jpg" alt="fotografía" class="about-me__photo"></div>
                 <div class="about-me__info">
                     <p class="about-me__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis adipisci, nulla quod omnis optio cum impedit aut. Aliquam modi doloribus repellat unde, inventore tempora illo magnam expedita animi ex totam ab dolorum? Nostrum, delectus error dicta veniam nobis nesciunt molestiae explicabo sunt mollitia maiores quibusdam placeat asperiores, debitis nisi odio, libero rerum! Optio minima alias quasi, odit libero molestiae unde.</p>
                     <button class="about-me__button button">
-                        <a class="about-me__button__link" href="#">Lo que me gusta</a>
+                        <a class="about-me__button__link" href="gustos.html">Lo que me gusta</a>
                     </button>
                 </div>
             </section>
-            <section class="contact">
+            <section class="contact" id="contact">
                 <form class="contact__form">
                     <h2 class="form__title">Contactame</h2>
                     <label class="form__label" for="input-email">Correo electronico</label>
@@ -97,22 +97,22 @@
                     <nav class="footer__menu">
                         <ul class="footer__list">
                             <li class="footer__item"><a href="#" class="footer__link">Inicio</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">¿Qué es esto?</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Sobre mi</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Escribeme</a></li>
+                            <li class="footer__item"><a href="#main-info" class="footer__link">¿Qué es esto?</a></li>
+                            <li class="footer__item"><a href="#about-me" class="footer__link">Sobre mi</a></li>
+                            <li class="footer__item"><a href="#contact" class="footer__link">Escribeme</a></li>
                         </ul>
                     </nav>
                 </section>
                 <section class="footer__secction">
                     <nav class="footer__menu">
                         <ul class="footer__list">
-                            <li class="footer__item footer__item--title"><a href="#" class="footer__link">Mis gustos</a>
+                            <li class="footer__item footer__item--title"><a href="gustos.html" class="footer__link">Mis gustos</a>
                                 <ul class="footer__list--sub">
-                                    <li class="footer__item"><a href="#" class="footer__link">Peliculas</a></li>
-                                    <li class="footer__item"><a href="#" class="footer__link">Series</a></li>
-                                    <li class="footer__item"><a href="#" class="footer__link">Videojuegos</a></li>
-                                    <li class="footer__item"><a href="#" class="footer__link">Futbol</a></li>
-                                    <li class="footer__item"><a href="#" class="footer__link">Libros</a></li>
+                                    <li class="footer__item"><a href="gustos.html#movies" class="footer__link">Peliculas</a></li>
+                                    <li class="footer__item"><a href="gustos.html#series" class="footer__link">Series</a></li>
+                                    <li class="footer__item"><a href="gustos.html#videogames" class="footer__link">Videojuegos</a></li>
+                                    <li class="footer__item"><a href="gustos.html#books" class="footer__link">Libros</a></li>
+                                    <li class="footer__item"><a href="gustos.html#soccer" class="footer__link">Futbol</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -122,16 +122,16 @@
                     <nav class="footer__menu">
                         <p class="footer__item footer__item--title">Contactame</p>
                         <ul class="footer__list">
-                            <li class="footer__item"><a href="#" class="footer__link"><i class="footer__icon fab fa-facebook-square"></i>Facebook</a></li>
+                            <li class="footer__item"><a href="https://www.facebook.com/ class="footer__link"><i class="footer__icon fab fa-facebook-square"></i>Facebook</a></li>
                             <li class="footer__item"><i class="footer__icon fas fa-phone-alt"></i></i>999-999-999</li>
-                            <li class="footer__item"><a href="#" class="footer__link"><i class="footer__icon far fa-envelope"></i>Gmail</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link"><i class="footer__icon fab fa-github"></i>GitHub</a></li>
+                            <li class="footer__item"><a href="https://mail.google.com" class="footer__link"><i class="footer__icon far fa-envelope"></i>Gmail</a></li>
+                            <li class="footer__item"><a href="https://github.com/JSamuelAP" class="footer__link"><i class="footer__icon fab fa-github"></i>GitHub</a></li>
                         </ul>
                     </nav>
                 </section>
             </div>
             <date class="footer__date">
-                <p class="date__text">Junio 2020</p>
+                <p class="date__text">Julio 2020</p>
             </date>
         </div>
     </footer>
