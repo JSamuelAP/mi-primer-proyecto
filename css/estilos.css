@@ -391,6 +391,13 @@ a {
 .footer__icon {
     margin-right: 0.5em;
 }
+.footer__author, .footer__date {
+    width: 50%;
+    display: inline-block;
+}
+.footer__author {
+    float: left;
+}
 .footer__date {
-    text-align: center;
+    float: right;
 }
